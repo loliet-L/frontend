@@ -1,6 +1,7 @@
 import apiClient from './apiClient'
 
 export const calculateEmissions = async (vehicle, distance) => {
+    console.log("post request to /calculate") ;
     try {
         const response = await apiClient.post('/calculate', {
             vehicle,
@@ -15,9 +16,7 @@ export const calculateEmissions = async (vehicle, distance) => {
 }
 
 export const getRecommendations = async (vehicle, distance, co2) => {
-    console.log(vehicle);
-    console.log(distance);
-    console.log(co2);
+    console.log("post request to /recommendations") ;
     try {
         const response = await apiClient.post('/recommendations', {
             vehicle,
