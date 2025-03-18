@@ -1,12 +1,37 @@
-# React + Vite
+# CarbonTrackr 🌱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Live Demo](https://img.shields.io/badge/Demo-Vercel-green)](https://frontend-carbon-tracker.vercel.app/)  
+[![Backend Repo](https://img.shields.io/badge/Backend-GitHub-blue)](https://github.com/loliet-L/backend)  
+[![Frontend Repo](https://img.shields.io/badge/Frontend-GitHub-blue)](https://github.com/loliet-L/frontend)  
 
-Currently, two official plugins are available:
+An AI-powered carbon footprint calculator for travel emissions, built in 24 hours using the Cursor IDE.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Travel Emission Calculator**  
+  Input vehicle type + distance for instant CO2 estimates  
+- **AI Recommendations**  
+  Get personalized eco-friendly suggestions  
+- **History Tracking**  
+  Browser-based storage for previous calculations  
+- **REST API**  
+  Rate-limited endpoints for data integrity  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+| Component       | Technology                          |
+|-----------------|-------------------------------------|
+| Frontend        | React, Zustand, Vite                |
+| Backend         | Node.js, Express                    |
+| AI Integration  | DeepSeek API                        |
+| Deployment      | Vercel (Frontend), Render (Backend) |
+| Development     | Cursor IDE                          |
+
+## ⚙️ Installation
+
+**Backend**  
+```bash
+git clone https://github.com/loliet-L/backend
+cd backend
+npm install
+npm start
