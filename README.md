@@ -23,7 +23,7 @@ An AI-powered carbon footprint calculator for travel emissions, built in 24 hour
 |-----------------|-------------------------------------|
 | Frontend        | React, Zustand, Vite                |
 | Backend         | Node.js, Express                    |
-| AI Integration  | DeepSeek API                        |
+| AI Integration  | Gemini API                        |
 | Deployment      | Vercel (Frontend), Render (Backend) |
 | Development     | Cursor IDE                          |
 
