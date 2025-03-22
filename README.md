@@ -1,4 +1,4 @@
-# CarbonTrackr 🌱
+# CarbonTracker 🌱
 
 [![Live Demo](https://img.shields.io/badge/Demo-Vercel-green)](https://frontend-carbon-tracker.vercel.app/)  
 [![Backend Repo](https://img.shields.io/badge/Backend-GitHub-blue)](https://github.com/loliet-L/backend)  
